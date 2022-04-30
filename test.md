@@ -1,4 +1,3 @@
 [link](facebook.com)
 
-
-Some paragraph text.
+some paragraph text after the links
