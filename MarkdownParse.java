@@ -14,7 +14,7 @@ public class MarkdownParse {
         int oldCurrentIndex = -1;
         while(currentIndex < markdown.length()) {
             if(currentIndex<=oldCurrentIndex){
-                //toReturn.remove(toReturn.size()-1);//remove last element
+                toReturn.remove(toReturn.size()-1);//remove last element
                 break;
             }
             int openBracket = markdown.indexOf("[", currentIndex);
